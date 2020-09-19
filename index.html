@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="postBox" id="postPeep">
+        <h2>Add a new peep</h2>
+        <form id="postPeepForm" action="index.html" method="post">
+          <label>Your peep:</label>
+          <textarea id="peepMessage" rows="1" cols="100" maxlength="100"></textarea><br>
+          <button type="submit" name="button">Submit</button>
+        </form>
+      </div>
+
+      <div class="allPeeps">
+        <ul id="listPeeps"></ul>
+      </div>
+    <script src="./src/jquery-3.3.1.js"></script>
+    <script src="./src/peep.js"></script>
+    <script src="./src/peeplist.js"></script>
+    <script src="./src/interface.js"></script>
+    
+</body>
+</html>

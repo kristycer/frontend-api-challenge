@@ -1,0 +1,26 @@
+{
+  "name": "frontend-api-challenge",
+  "version": "1.0.0",
+  "description": "chitter",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jasmine": "^3.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristycer/frontend-api-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristycer/frontend-api-challenge/issues"
+  },
+  "homepage": "https://github.com/kristycer/frontend-api-challenge#readme"
+}

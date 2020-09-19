@@ -1,0 +1,17 @@
+#postPeep {
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 7;
+  }
+  
+  button {
+    margin-top: 2em;
+    color: #833AB4;
+    font-family: monospace;
+    font-size: medium;
+  }
+  
+  button:active {
+    background-color: #833AB4;
+    color: white;
+  }
